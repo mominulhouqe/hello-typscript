@@ -16,3 +16,20 @@
  **Ans:** --No. amra typscript run korbo na. karon hocce amra typscript ke compile kore javacript ea rupantor korbo and eta ke amra nodejs environment diye run korbo.thole amra javascript er type pabo kintu ts er type pabo na...
 **Tahole typscript kibabe amader help kortece ?**
 **Ans:** ->typscript ea jokon code korbo tokon code gula compile hobe tokon sekan teke type ta ke niye help korbe.as a developer hisebe jeno amra vul na kori.
+
+## Undestand of defined objects 
+-  Object declare 
+// Refferance type .--> object
+
+const user: {
+    firstname: string;
+    middleName?: string | undefined;
+    lastName: string;
+    company: 'phero'; //it will be type -->litterel type->if value will fixed
+} = {
+
+    firstname: "momin",
+    middleName: 'ul',
+    lastName: 'houqe',
+    company:'phero'
+}
