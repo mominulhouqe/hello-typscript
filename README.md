@@ -12,5 +12,7 @@
 - 4. undifiend
 - 5. symbol 
 # Question 1.
-- **typescript type gulu ki amra run time ea pabo?**
-- `rgb(9, 105, 218)` Ans:  
+- **typescript er type gulu ki amra run time ea pabo?**
+ **Ans:** --No. amra typscript run korbo na. karon hocce amra typscript ke compile kore javacript ea rupantor korbo and eta ke amra nodejs environment diye run korbo.thole amra javascript er type pabo kintu ts er type pabo na...
+**Tahole typscript kibabe amader help kortece ?**
+**Ans:** ->typscript ea jokon code korbo tokon code gula compile hobe tokon sekan teke type ta ke niye help korbe.as a developer hisebe jeno amra vul na kori.
