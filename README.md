@@ -12,5 +12,5 @@
 - 4. undifiend
 - 5. symbol 
 # Question 1.
-- typescript type gulu ki amra run time ea pabo?
-* Ans:  
+- **typescript type gulu ki amra run time ea pabo?**
+- `rgb(9, 105, 218)` Ans:  
