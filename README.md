@@ -96,7 +96,7 @@ Welcome to my TypeScript learning journey! In this repository, I'm documenting m
 
 
 
-### Write By me
+### It's Bangla
 ## First-day
 - 1. NVM Installing
 - 2. `npm install -g install` 
