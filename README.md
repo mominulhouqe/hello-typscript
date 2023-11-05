@@ -33,3 +33,10 @@ const user: {
     lastName: 'houqe',
     company:'phero'
 }
+
+## undustand of function
+
+- 1. 2 type of function-->arrow function and normal function
+- 2. Normal function declare ` const add(num1:number,num2:number):number{ return num1 + num2} add(2,3)`
+- 3. Arrow function declare `const add(num1:number,num2:number):number=>num1+num2 `
+- 4. Object declaration method-->
