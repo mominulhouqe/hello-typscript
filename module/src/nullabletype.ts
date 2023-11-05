@@ -27,5 +27,24 @@ searchName(null);
 // bobisot ea type ta kemn hobe seta nirdaron korte parbo unkonwn type er maddome
 
 
+let userInput: unknown;
+let userName: string;
+
+userInput = 5;
+userInput = "John";
+
+// We must check and narrow down the type before assigning it to userName.
+if (typeof userInput === "string") {
+    userName = userInput; // This is valid now.
+}
+
+// never type
+function throwError(message: string): never {
+    throw new Error(message);
+}
+
+throwError("An error occurred"); // This function never returns, it throws an error.
+
+
 
 }
