@@ -13,7 +13,7 @@ function add(num1: number, num2: number) {
 add(2, 5);
 
 // arrow function define
-const addNumber = (num1:number,num2:number):number => num1 + num2;
+const addNumber = (num1: number, num2: number): number => num1 + num2;
 
 
 // object -->function --> method
@@ -25,3 +25,10 @@ const myBalance = {
         return `My balance is = ${this.balance + balance}`;
     }
 }
+
+// maping in ts
+
+const arr: number[] = [34, 45, 32];
+const newArray = arr.map(elem =>  elem * elem)
+console.log(newArray);
+
