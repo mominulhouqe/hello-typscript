@@ -93,6 +93,8 @@ Welcome to my TypeScript learning journey! In this repository, I'm documenting m
    3. **Nullish Coalescing Operator:** We introduce the nullish coalescing operator to provide default values based on the presence of null or undefined values.
 
    4. **Comparison:** We compare the behavior of the ternary operator and the nullish coalescing operator.
+   # typscript nullable value
+   - In this code, we have a function searchName that takes a parameter value which can be either a string or null. Inside the function, we check if value is truthy (not null) and log "Searching" to the console. If value is null, we log "There is no data" to the console. When we call the function with searchName(null), it logs "There is no data" because we passed null as the argument.
 
 
 
