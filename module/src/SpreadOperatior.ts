@@ -39,12 +39,30 @@ const mentorList = {
 
 // }
 const greetFriends = (...friends: string[]) => {
-friends.forEach((friend:string)=>console.log('Hi', friend)
-);
-    
+    friends.forEach((friend: string) => console.log('Hi', friend)
+    );
+
 }
-greetFriends('mominul','rajibur','sulthandine')
+greetFriends('mominul', 'rajibur', 'sulthandine')
 
 
-// destructaring
+//object destructaring
+const users = {
+    id: 1,
+    name: {
+        firstNames: "mominul",
+        lastName: 'houqe'
+    },
+    contacts: '04555',
+
+}
+const {
+    contacts,
+    name:{lastName}
+
+} = users;
+
+// array descrtructing
+
+const myFriends =["mominul",'rajib','cunu']
 
